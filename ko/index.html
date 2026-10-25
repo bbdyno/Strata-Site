@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strata — 시스템 데이터를 한 층씩</title>
+<meta name="description" content="Strata는 맥의 시스템 데이터를 층별로 나눠 설명하고, 지워도 되는 것만 정리하도록 돕습니다.">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://bbdyno.github.io/Strata-Site/ko/">
+<link rel="alternate" hreflang="en" href="https://bbdyno.github.io/Strata-Site/">
+<link rel="alternate" hreflang="ko" href="https://bbdyno.github.io/Strata-Site/ko/">
+<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="Strata 홈"><svg viewBox="0 0 22 22" aria-hidden="true" focusable="false"><rect x="2" y="3" width="18" height="4" rx="0.5" fill="var(--g-safe)"/><rect x="2.5" y="9.5" width="17" height="4" fill="none" stroke="currentColor" stroke-width="1"/><path d="M4 13.5l4-4M8 13.5l4-4M12 13.5l4-4M16 13.5l3.5-3.5" stroke="currentColor" stroke-width="0.9"/><rect x="2.5" y="15.5" width="17" height="4" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1 1.6"/></svg><span>Strata</span></a>
+<nav class="nav" aria-label="주 메뉴"><a class="nav-home" href="index.html" aria-current="page">소개</a><a href="support.html">지원</a><a href="privacy.html">개인정보</a><a href="terms.html">이용약관</a></nav>
+<a class="lang-link" href="../index.html" hreflang="en" lang="en" aria-label="View in English">English</a>
+</div>
+</header>
+<main id="main">
+<section class="hero">
+<div class="wrap">
+<p class="eyebrow">Mac용 Strata</p>
+<h1>시스템 데이터, 한 층씩 풀어 봅니다.</h1>
+<p class="lede">설정&nbsp;&rsaquo; 저장 공간에는 &lsquo;시스템 데이터&rsquo;라는 회색 막대와 숫자 하나만 보입니다. Strata는 디스크를 개발 도구 캐시, 시뮬레이터 런타임, 진단 보고서, 오래된 내려받은 파일처럼 이름 있는 층으로 나누고, 각각이 무엇인지 쉬운 말로 설명합니다. 정리는 <strong>지워도 되는 것만</strong> 하도록 돕습니다.</p>
+<p class="meta">Mac App Store에서 무료로 받을 수 있습니다. macOS 26 이상이 필요합니다.</p>
+</div>
+</section>
+
+<section aria-labelledby="how-h">
+<div class="wrap">
+<h2 class="section-title" id="how-h">검사하고, 이해하고, 정리합니다.</h2>
+<ol class="steps">
+<li>
+<span class="n">01</span>
+<h3>검사</h3>
+<p>Strata를 처음 열면 <strong>Macintosh HD</strong>를 직접 골라 디스크를 읽을 권한을 줍니다. 그러면 Strata가 폴더마다 실제로 차지하는 크기를 재서, 큰 것부터 따라 내려갈 수 있는 디스크 지도로 보여 줍니다.</p>
+</li>
+<li>
+<span class="n">02</span>
+<h3>이해</h3>
+<p>항목마다 짧은 설명이 붙습니다. 무엇이 만들었는지, 없어지면 어떻게 되는지, 다시 필요하면 어떻게 되돌리는지. 등급도 함께 표시되어 저절로 다시 생기는 것과 그대로 두는 편이 나은 것을 한눈에 구분할 수 있습니다.</p>
+</li>
+<li>
+<span class="n">03</span>
+<h3>정리</h3>
+<p>정리한 파일은 휴지통으로 옮기므로 되돌릴 수 있습니다. 홈브루 캐시나 시뮬레이터 런타임처럼 개발 도구가 직접 지워야 하는 항목은 그 도구의 명령을 알려 드립니다. 복사해서 터미널에서 실행하면 됩니다.</p>
+</li>
+</ol>
+</div>
+</section>
+
+<section aria-labelledby="grades-h">
+<div class="wrap">
+<h2 class="section-title" id="grades-h">누르기 전에 이미 정해진 네 가지 등급.</h2>
+<p class="section-intro">Strata가 알아보는 항목에는 규칙 단계에서 등급이 매겨져 있습니다. Strata가 그 항목에 무엇을 해 줄지는 등급이 정합니다.</p>
+<div class="grades">
+<div class="grade"><span class="sw sw-safe" aria-hidden="true"></span><div><h3>안전</h3><p>앱과 도구가 필요할 때 다시 만드는 캐시와 내려받은 파일입니다.</p><p class="ex">홈브루 내려받기 파일, Swift 패키지 캐시, npm 캐시.</p></div></div>
+<div class="grade"><span class="sw sw-review" aria-hidden="true"></span><div><h3>검토</h3><p>지워도 문제는 없지만, 다시 필요해지면 내려받아야 합니다. 항목마다 보여 주니 골라서 정리하세요.</p><p class="ex">시뮬레이터 런타임, 안드로이드 시스템 이미지, Xcode 기기 지원 파일.</p></div></div>
+<div class="grade"><span class="sw sw-protected" aria-hidden="true"></span><div><h3>보호</h3><p>내 데이터가 들어 있습니다. 무엇인지 설명하고 위치를 보여 주지만, 지울지 말지는 사용자와 그 데이터를 가진 앱에 맡깁니다.</p><p class="ex">Application Support 안의 앱 데이터, 메시지 첨부 파일.</p></div></div>
+<div class="grade"><span class="sw sw-system" aria-hidden="true"></span><div><h3>시스템</h3><p>Strata가 재고 설명하지만 정리하지는 않는 macOS 영역입니다. 대부분 업데이트를 마치거나 다시 시작하면 저절로 줄어듭니다.</p><p class="ex">로컬 스냅샷, 스왑, 내려받아 둔 macOS 업데이트.</p></div></div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="price-h">
+<div class="wrap">
+<h2 class="section-title" id="price-h">받는 것은 무료, 정리는 한 번 구입으로.</h2>
+<div class="cols">
+<div class="col">
+<h3>무료</h3>
+<ul>
+<li>전체 검사와 디스크 지도</li>
+<li>모든 항목의 쉬운 설명</li>
+<li>정리 명령 복사해서 직접 실행</li>
+<li>첫 정리 1회</li>
+</ul>
+</div>
+<div class="col">
+<h3>정리 기능 열기</h3>
+<ul>
+<li>첫 정리 이후의 모든 정리</li>
+<li>구독이 아닌 일회성 앱 내 구입</li>
+<li>Apple 계정으로 결제</li>
+</ul>
+<p>가격은 App Store에 표시됩니다. 구입 복원, 가족 공유, 환불은 Apple 정책을 따릅니다.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="privacy-h">
+<div class="wrap">
+<h2 class="section-title" id="privacy-h">맥 밖으로 나가는 것은 없습니다.</h2>
+<div class="plain">
+<p>Strata는 어떤 데이터도 수집하지 않습니다. 분석, 광고, 추적이 없고 어느 서버와도 통신하지 않습니다. 네트워크를 쓰는 것은 구입하거나 구입을 복원할 때 Apple의 스토어킷뿐입니다.</p>
+<p>검사 결과와 정리 기록은 이 맥에만 저장됩니다. 업데이트는 Mac App Store가 해 줍니다. <a href="privacy.html">개인정보 처리방침</a>을 읽어 보세요.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="바닥글"><a href="support.html">지원</a><a href="privacy.html">개인정보 처리방침</a><a href="terms.html">이용약관</a><a href="mailto:della.kimko@gmail.com">della.kimko@gmail.com</a></nav>
+<p class="copy">&copy; 2026 Strata</p>
+</div>
+</footer>
+</body>
+</html>

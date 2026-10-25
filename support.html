@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Strata</title>
+<meta name="description" content="Help with Strata: disk access, Full Disk Access, restoring your purchase and refunds.">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://bbdyno.github.io/Strata-Site/support.html">
+<link rel="alternate" hreflang="en" href="https://bbdyno.github.io/Strata-Site/support.html">
+<link rel="alternate" hreflang="ko" href="https://bbdyno.github.io/Strata-Site/ko/support.html">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="Strata home"><svg viewBox="0 0 22 22" aria-hidden="true" focusable="false"><rect x="2" y="3" width="18" height="4" rx="0.5" fill="var(--g-safe)"/><rect x="2.5" y="9.5" width="17" height="4" fill="none" stroke="currentColor" stroke-width="1"/><path d="M4 13.5l4-4M8 13.5l4-4M12 13.5l4-4M16 13.5l3.5-3.5" stroke="currentColor" stroke-width="0.9"/><rect x="2.5" y="15.5" width="17" height="4" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1 1.6"/></svg><span>Strata</span></a>
+<nav class="nav" aria-label="Main"><a class="nav-home" href="index.html">Overview</a><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+<a class="lang-link" href="ko/support.html" hreflang="ko" lang="ko" aria-label="한국어로 보기">한국어</a>
+</div>
+</header>
+<main id="main">
+<div class="doc">
+<div class="wrap-narrow">
+<h1>Support</h1>
+<p class="lead">Write to <a href="mailto:della.kimko@gmail.com">della.kimko@gmail.com</a>. A real person reads every message.</p>
+<div class="box">
+<p>It helps to include your macOS version, the Strata version (Strata&nbsp;&rsaquo; About Strata) and what you expected to happen.</p>
+</div>
+
+<h2 id="faq">Frequently asked questions</h2>
+<div class="faq">
+
+<details id="access">
+<summary>How do I give Strata permission to read my disk?</summary>
+<div class="a">
+<p>Mac App Store apps can only read the locations you choose. The first time you open Strata, it asks you to choose one:</p>
+<ol>
+<li>In the window that appears, select <strong>Macintosh HD</strong> in the sidebar. If you don&rsquo;t see it, press <kbd>Shift</kbd>&ndash;<kbd>Command</kbd>&ndash;<kbd>C</kbd> to show your Mac&rsquo;s disks, then select Macintosh HD.</li>
+<li>Click the button to confirm.</li>
+</ol>
+<p>Strata remembers this permission. If you cancelled the window, Strata asks again before it scans.</p>
+</div>
+</details>
+
+<details id="full-disk-access">
+<summary>Do I need to turn on Full Disk Access?</summary>
+<div class="a">
+<p>No, it is optional. Even after you choose Macintosh HD, macOS keeps some locations private, such as Mail, Messages, Safari data and parts of your Library. Strata marks what it could not read as &ldquo;not measured&rdquo;, so you always know how complete the picture is.</p>
+<p>To include those locations:</p>
+<ol>
+<li>Open System Settings&nbsp;&rsaquo; Privacy &amp; Security&nbsp;&rsaquo; Full Disk Access.</li>
+<li>Turn on Strata. If it isn&rsquo;t in the list, click the add button (+) and choose Strata from your Applications folder.</li>
+<li>Quit and reopen Strata.</li>
+</ol>
+<p>You can turn it off again at any time.</p>
+</div>
+</details>
+
+<details id="commands">
+<summary>Why does Strata ask me to copy a command?</summary>
+<div class="a">
+<p>App Store apps run in a sandbox and cannot run other programs. Some caches can only be removed properly by the tool that made them, such as Homebrew, Xcode simulator runtimes or the Android SDK. For these, Strata shows that tool&rsquo;s own command. Click Copy, paste it into Terminal and press Return.</p>
+<p>Copying commands is free.</p>
+</div>
+</details>
+
+<details id="undo">
+<summary>Can I undo a cleanup?</summary>
+<div class="a">
+<p>Yes, as long as you haven&rsquo;t emptied the Trash. Strata moves the files it cleans to the Trash. To restore something, open the Trash, select the item and choose File&nbsp;&rsaquo; Put Back.</p>
+<p>Commands you run yourself in Terminal are carried out by that tool. Caches regenerate on their own, and runtimes or system images can be downloaded again.</p>
+</div>
+</details>
+
+<details id="free">
+<summary>What is free, and what does the purchase add?</summary>
+<div class="a">
+<p>Downloading Strata is free. Scanning, the disk map, every explanation and copying cleanup commands are free, and your first cleanup is free too.</p>
+<p>A one-time in-app purchase unlocks cleaning in full. It is not a subscription. The price is shown in the App Store.</p>
+</div>
+</details>
+
+<details id="restore">
+<summary>How do I restore my purchase?</summary>
+<div class="a">
+<p>On a new Mac or after reinstalling Strata:</p>
+<ol>
+<li>Make sure you are signed in to the App Store with the Apple Account you used to buy.</li>
+<li>Open Strata and go to the purchase screen.</li>
+<li>Click <strong>Restore Purchases</strong>.</li>
+</ol>
+<p>Family Sharing follows Apple&rsquo;s rules. If you share purchases with your family, family members can restore the purchase the same way on their own Macs.</p>
+</div>
+</details>
+
+<details id="refund">
+<summary>How do I get a refund?</summary>
+<div class="a">
+<p>Purchases are made through Apple, so refunds are handled by Apple and we cannot issue them ourselves. Go to <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, sign in with your Apple Account, choose &ldquo;Request a refund&rdquo; and select your Strata purchase. Apple decides on refund requests under its own policy.</p>
+</div>
+</details>
+
+<details id="updates">
+<summary>How does Strata get updated?</summary>
+<div class="a">
+<p>Through the Mac App Store, like any other App Store app. Strata itself never downloads anything.</p>
+</div>
+</details>
+
+<details id="data">
+<summary>Does Strata collect any data?</summary>
+<div class="a">
+<p>No. There are no analytics, no advertising and no tracking, and Strata does not talk to any server. Scan results and cleanup history stay on your Mac. See the <a href="privacy.html">privacy policy</a>.</p>
+</div>
+</details>
+
+<details id="uninstall">
+<summary>How do I uninstall Strata?</summary>
+<div class="a">
+<p>Quit Strata and move it from the Applications folder to the Trash. If you turned on Full Disk Access, you can also remove Strata from that list in System Settings.</p>
+</div>
+</details>
+
+</div>
+
+<h2>Requirements</h2>
+<p>macOS 26 or later.</p>
+
+<h2>More</h2>
+<p><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Use</a></p>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Footer"><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="mailto:della.kimko@gmail.com">della.kimko@gmail.com</a></nav>
+<p class="copy">&copy; 2026 Strata</p>
+</div>
+</footer>
+</body>
+</html>
