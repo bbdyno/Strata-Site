@@ -36,12 +36,12 @@
 <details id="access">
 <summary>How do I give Strata permission to read my disk?</summary>
 <div class="a">
-<p>Mac App Store apps can only read the locations you choose. The first time you open Strata, it asks you to choose one:</p>
+<p>Mac App Store apps can only read the locations you choose. The first time you open Strata, it shows <strong>Allow Strata to Read Your Disk</strong>:</p>
 <ol>
-<li>In the window that appears, select <strong>Macintosh HD</strong> in the sidebar. If you don&rsquo;t see it, press <kbd>Shift</kbd>&ndash;<kbd>Command</kbd>&ndash;<kbd>C</kbd> to show your Mac&rsquo;s disks, then select Macintosh HD.</li>
-<li>Click the button to confirm.</li>
+<li>Click <strong>Choose Macintosh HD&hellip;</strong>. The window that opens already starts at the top of your disk, Macintosh HD.</li>
+<li>Leave it there and click <strong>Allow</strong>.</li>
 </ol>
-<p>Strata remembers this permission. If you cancelled the window, Strata asks again before it scans.</p>
+<p>Strata remembers this permission. If you choose a folder inside Macintosh HD instead, or cancel the window, Strata asks again.</p>
 </div>
 </details>
 
@@ -62,7 +62,7 @@
 <details id="commands">
 <summary>Why does Strata ask me to copy a command?</summary>
 <div class="a">
-<p>App Store apps run in a sandbox and cannot run other programs. Some caches can only be removed properly by the tool that made them, such as Homebrew, Xcode simulator runtimes or the Android SDK. For these, Strata shows that tool&rsquo;s own command. Click Copy, paste it into Terminal and press Return.</p>
+<p>App Store apps run in a sandbox and cannot run other programs. Some caches can only be removed properly by the tool that made them, such as Homebrew, Xcode simulator runtimes or the Android SDK. In the App Store version these items can&rsquo;t be checked for cleaning. Select the item, click the copy button next to its command in the inspector on the right, paste it into Terminal and press Return.</p>
 <p>Copying commands is free.</p>
 </div>
 </details>
@@ -79,7 +79,7 @@
 <summary>What is free, and what does the purchase add?</summary>
 <div class="a">
 <p>Downloading Strata is free. Scanning, the disk map, every explanation and copying cleanup commands are free, and your first cleanup is free too.</p>
-<p>A one-time in-app purchase unlocks cleaning in full. It is not a subscription. The price is shown in the App Store.</p>
+<p>After that, Strata shows <strong>Cleaning needs Strata Pro</strong>. Click <strong>Buy Strata Pro</strong> to unlock cleaning in full with a one-time in-app purchase. It is not a subscription. The price is shown in the App Store.</p>
 </div>
 </details>
 
@@ -89,8 +89,7 @@
 <p>On a new Mac or after reinstalling Strata:</p>
 <ol>
 <li>Make sure you are signed in to the App Store with the Apple Account you used to buy.</li>
-<li>Open Strata and go to the purchase screen.</li>
-<li>Click <strong>Restore Purchases</strong>.</li>
+<li>Open Strata. On the purchase screen (<strong>Cleaning needs Strata Pro</strong>), or in Settings&nbsp;&rsaquo; <strong>Purchase</strong>, click <strong>Restore Purchases</strong>.</li>
 </ol>
 <p>Family Sharing follows Apple&rsquo;s rules. If you share purchases with your family, family members can restore the purchase the same way on their own Macs.</p>
 </div>
@@ -114,6 +113,13 @@
 <summary>Does Strata collect any data?</summary>
 <div class="a">
 <p>No. There are no analytics, no advertising and no tracking, and Strata does not talk to any server. Scan results and cleanup history stay on your Mac. See the <a href="privacy.html">privacy policy</a>.</p>
+</div>
+</details>
+
+<details id="contents">
+<summary>Does Strata read the contents of my files?</summary>
+<div class="a">
+<p>Only when you start Find Duplicates yourself. To tell whether two files are identical, Strata compares their contents on this Mac and sends nothing anywhere. Every other scan reads only file information such as names, sizes and dates.</p>
 </div>
 </details>
 

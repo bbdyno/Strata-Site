@@ -38,7 +38,7 @@
 <li>
 <span class="n">01</span>
 <h3>Scan</h3>
-<p>The first time you open Strata, you choose <strong>Macintosh HD</strong> to give it permission to read your disk. Strata then measures what each folder really takes up and shows it as a disk map you can walk down by size.</p>
+<p>The first time you open Strata, it shows <strong>Allow Strata to Read Your Disk</strong>. Click <strong>Choose Macintosh HD&hellip;</strong>: the window opens at the top of your disk, Macintosh HD, so just click <strong>Allow</strong>. Strata then measures what each folder really takes up and shows it as a disk map you can walk down by size.</p>
 </li>
 <li>
 <span class="n">02</span>
@@ -48,7 +48,7 @@
 <li>
 <span class="n">03</span>
 <h3>Clean</h3>
-<p>Files you clean are moved to the Trash, so you can put them back. Items that a developer tool has to remove itself, such as Homebrew caches or simulator runtimes, come with that tool&rsquo;s own command for you to copy and run in Terminal.</p>
+<p>Files you clean are moved to the Trash, so you can put them back. Items that a developer tool has to remove itself, such as Homebrew caches or simulator runtimes, can&rsquo;t be checked in the App Store version. Instead, the copy button in the inspector on the right copies that tool&rsquo;s own command for you to run in Terminal.</p>
 </li>
 </ol>
 </div>
@@ -62,7 +62,7 @@
 <div class="grade"><span class="sw sw-safe" aria-hidden="true"></span><div><h3>Safe</h3><p>Caches and downloads that apps and tools rebuild when they need them.</p><p class="ex">Homebrew downloads, the Swift package cache, npm caches.</p></div></div>
 <div class="grade"><span class="sw sw-review" aria-hidden="true"></span><div><h3>Review</h3><p>Fine to remove, but you will have to download it again if you need it. Strata lists each item so you can choose.</p><p class="ex">Simulator runtimes, Android system images, Xcode device support files.</p></div></div>
 <div class="grade"><span class="sw sw-protected" aria-hidden="true"></span><div><h3>Protected</h3><p>Contains your data. Strata explains it and shows where it is, but leaves the decision to you and the app that owns it.</p><p class="ex">App data in Application Support, message attachments.</p></div></div>
-<div class="grade"><span class="sw sw-system" aria-hidden="true"></span><div><h3>System</h3><p>Parts of macOS that Strata measures and explains but does not clean. Most shrink by themselves after an update or a restart.</p><p class="ex">Local snapshots, swap, a staged macOS update.</p></div></div>
+<div class="grade"><span class="sw sw-system" aria-hidden="true"></span><div><h3>System</h3><p>Parts of macOS that Strata does not clean. It explains what they are and why they grow; depending on what macOS lets the App Store version see, it shows their size or marks them as not measured. Most shrink by themselves after an update or a restart.</p><p class="ex">Strata explains local snapshots, swap and a staged macOS update.</p></div></div>
 </div>
 </div>
 </section>
@@ -81,13 +81,13 @@
 </ul>
 </div>
 <div class="col">
-<h3>Cleaning, unlocked</h3>
+<h3>Strata Pro</h3>
 <ul>
 <li>Every cleanup after the first</li>
 <li>A one-time in-app purchase, not a subscription</li>
 <li>Paid through your Apple Account</li>
 </ul>
-<p>The price is shown in the App Store. Restoring the purchase, Family Sharing and refunds follow Apple&rsquo;s policies.</p>
+<p>The price is shown in the App Store. To restore it, click <strong>Restore Purchases</strong> on the purchase screen or in Settings&nbsp;&rsaquo; Purchase. Family Sharing and refunds follow Apple&rsquo;s policies.</p>
 </div>
 </div>
 </div>
@@ -98,6 +98,7 @@
 <h2 class="section-title" id="privacy-h">Nothing leaves your Mac.</h2>
 <div class="plain">
 <p>Strata collects no data. It has no analytics, no advertising and no tracking, and it does not talk to any server. The only network activity is Apple&rsquo;s own StoreKit, when you buy or restore the purchase.</p>
+<p>Scans read only file information such as names, sizes and dates. Strata compares file contents only when you start Find Duplicates yourself, and it does so on this Mac without sending anything anywhere.</p>
 <p>Scan results and your cleanup history are stored only on this Mac. Updates arrive through the Mac App Store. Read the <a href="privacy.html">privacy policy</a>.</p>
 </div>
 </div>
